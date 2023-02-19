@@ -15,6 +15,7 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 100, height:100)
                     .offset(y: -50)
+                
                 Text("功德排行榜")
                     .foregroundColor(.white)
                     .offset(y: -50)
