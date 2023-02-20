@@ -15,17 +15,19 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 100, height:100)
                     .offset(y: -50)
+                    .offset(x: -15)
                 
                 Text("功德排行榜")
                     .foregroundColor(.white)
                     .offset(y: -50)
-                    .offset(x: 130)
-                    .font(.system(size: 20))
+                    .offset(x: 150)
+                    .font(.system(size: 17))
                 Spacer()
             }
+
             Image("wooden_fish")
                 .resizable()
-                .frame(width: 300, height: 220)
+                .frame(width: 280, height: 200)
                 .offset(y: 300)
             Text("120")
                 .foregroundColor(.white)
