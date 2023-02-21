@@ -67,7 +67,6 @@ struct RankView: View {
             }
             
             VStack {
-                Group {
                     HStack {
                         Image("title-1")
                             .resizable().frame(width: 30, height: 40)
@@ -81,9 +80,9 @@ struct RankView: View {
                     .fontWeight(.medium)
                     .overlay(Rectangle().frame(height: 1).foregroundColor(.white).padding(.horizontal, 30).padding(.vertical, -30), alignment: .bottom)
                     
-                    HighRankView(image: "title-1", name: "广東省", value: "122,159,984")
+                    HighRankView(image: "title-2", name: "广東省", value: "122,159,984")
                     
-                    HighRankView(image: "title-1", name: "河南省", value: "24,589,984")
+                    HighRankView(image: "title-3", name: "河南省", value: "24,589,984")
                     
                     ForEach(0..<10) {index in
                         OtherRankView(rank: index+4, name: "XXX省", value: "24,589,984")
@@ -92,8 +91,29 @@ struct RankView: View {
                         HStack{
                             Spacer()
                         }
-                        Text("adf")
-                        Text("adf")
+                        Spacer()
+                        Spacer()
+                        Spacer()
+                    }
+                    .background(Color.white)
+                    .offset(y:-40)
+                    .padding(.bottom, -20)
+                    
+                    VStack {
+                        HStack {
+                            Text("当前所属地区: ")
+                            Spacer()
+                            Text("贡献值:")
+                        }
+                        .padding(.horizontal, 20)
+                        HStack {
+                            Text("河南省")
+                            Spacer()
+                            Text("1,235")
+                                .offset(x:-13)
+                        }
+                        .padding(.horizontal, 20)
+                     
                         Spacer()
                     }
                     .background(Color.white)
@@ -101,7 +121,8 @@ struct RankView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                     .offset(y: -40)
                     .padding(.bottom, -40)
-                }
+                    
+                    
                 
             }
             .background(Color.black)
