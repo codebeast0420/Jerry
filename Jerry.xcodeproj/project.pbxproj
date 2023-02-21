@@ -14,6 +14,7 @@
 		C498675629A1CE3600595C60 /* JerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498675529A1CE3600595C60 /* JerryTests.swift */; };
 		C498676029A1CE3600595C60 /* JerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498675F29A1CE3600595C60 /* JerryUITests.swift */; };
 		C498676229A1CE3600595C60 /* JerryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498676129A1CE3600595C60 /* JerryUITestsLaunchTests.swift */; };
+		C498677129A3AE4200595C60 /* RankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498677029A3AE4200595C60 /* RankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C498675B29A1CE3600595C60 /* JerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JerryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C498675F29A1CE3600595C60 /* JerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JerryUITests.swift; sourceTree = "<group>"; };
 		C498676129A1CE3600595C60 /* JerryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JerryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C498677029A3AE4200595C60 /* RankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				C498674429A1CE3400595C60 /* JerryApp.swift */,
 				C498674629A1CE3400595C60 /* ContentView.swift */,
+				C498677029A3AE4200595C60 /* RankView.swift */,
 				C498674829A1CE3600595C60 /* Assets.xcassets */,
 				C498674A29A1CE3600595C60 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C498674729A1CE3400595C60 /* ContentView.swift in Sources */,
+				C498677129A3AE4200595C60 /* RankView.swift in Sources */,
 				C498674529A1CE3400595C60 /* JerryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
