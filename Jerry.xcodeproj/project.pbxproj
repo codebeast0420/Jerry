@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4783CFB29A518EC00D29028 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4783CFA29A518EC00D29028 /* SettingView.swift */; };
 		C498674529A1CE3400595C60 /* JerryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498674429A1CE3400595C60 /* JerryApp.swift */; };
 		C498674729A1CE3400595C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C498674629A1CE3400595C60 /* ContentView.swift */; };
 		C498674929A1CE3600595C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C498674829A1CE3600595C60 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4783CFA29A518EC00D29028 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		C498674129A1CE3400595C60 /* Jerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C498674429A1CE3400595C60 /* JerryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JerryApp.swift; sourceTree = "<group>"; };
 		C498674629A1CE3400595C60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,8 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				C498674429A1CE3400595C60 /* JerryApp.swift */,
-				C498674629A1CE3400595C60 /* ContentView.swift */,
 				C498677029A3AE4200595C60 /* RankView.swift */,
+				C498674629A1CE3400595C60 /* ContentView.swift */,
+				C4783CFA29A518EC00D29028 /* SettingView.swift */,
 				C498674829A1CE3600595C60 /* Assets.xcassets */,
 				C498674A29A1CE3600595C60 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C498674729A1CE3400595C60 /* ContentView.swift in Sources */,
+				C4783CFB29A518EC00D29028 /* SettingView.swift in Sources */,
 				C498677129A3AE4200595C60 /* RankView.swift in Sources */,
 				C498674529A1CE3400595C60 /* JerryApp.swift in Sources */,
 			);
